@@ -3,6 +3,7 @@ import Logo from '../../../UI/Logo/Logo';
 import NavigationItems from '../../NavigationItems/NavigationItems';
 import classes from './SideBar.module.css';
 import Backdrop from '../../../UI/Backdrop/Backdrop';
+import SocialLinks from '../../../UI/SocialLinks/SocialLinks';
 
 
 const SideBar = (props) => {
@@ -25,6 +26,7 @@ const SideBar = (props) => {
                 <nav onClick={ props.closed }>
                     <NavigationItems />
                 </nav>
+                <SocialLinks />
             </div>
         </>
     );

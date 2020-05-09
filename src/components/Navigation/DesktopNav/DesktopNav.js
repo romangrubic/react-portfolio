@@ -1,6 +1,7 @@
 import React from 'react';
 import NavigationItems from '../NavigationItems/NavigationItems';
 import Logo from '../../UI/Logo/Logo';
+import SocialLinks from '../../UI/SocialLinks/SocialLinks';
 
 import classes from './DesktopNav.module.css';
 
@@ -18,6 +19,7 @@ const DesktopNav = (props) => {
             <nav>
                 <NavigationItems />
             </nav>
+            <SocialLinks />
         </header>
     )
 };
