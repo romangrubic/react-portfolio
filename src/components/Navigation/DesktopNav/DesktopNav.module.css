@@ -1,13 +1,13 @@
 .Toolbar {
     height: 100vh;
-    width: 250px;
+    width: 300px;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #703B09;
+    background-color: rgb(42, 119, 170);
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 30px;
     box-sizing: border-box;
     z-index: 90;
 }
@@ -16,9 +16,17 @@
     height: 100%;
 }
 .Logo {
+    margin-top: 20px;
     height: 200px;
 }
-
+.Name {
+    color: white;
+}
+.Name h2, h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
 @media (max-width: 800px) {
     .Toolbar {
         display: none;
