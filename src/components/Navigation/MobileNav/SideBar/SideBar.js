@@ -1,0 +1,29 @@
+import React from 'react';
+import Logo from '../../../UI/Logo/Logo';
+import NavigationItems from '../../NavigationItems/NavigationItems';
+import classes from './SideBar.module.css';
+import Backdrop from '../../../UI/Backdrop/Backdrop';
+
+
+const SideBar = (props) => {
+    let attachClasses = [classes.SideDrawer, classes.Close];
+    if (props.open) {
+        attachClasses = [classes.SideDrawer, classes.Open];
+    }
+
+    return (
+        <>
+            <Backdrop
+                show={ props.open }
+                clicked={ props.closed } />
+            <div className={ attachClasses.join(" ") } onClick={ props.closed }>
+                    <Logo />
+                <nav>
+                    <NavigationItems />
+                </nav>
+            </div>
+        </>
+    );
+};
+
+export default SideBar;
