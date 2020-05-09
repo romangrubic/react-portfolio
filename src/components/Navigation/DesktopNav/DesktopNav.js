@@ -1,17 +1,19 @@
 import React from 'react';
 import NavigationItems from '../NavigationItems/NavigationItems';
-import Logo from '../../UI/Logo/Logo'; 
+import Logo from '../../UI/Logo/Logo';
+
+import classes from './DesktopNav.module.css';
 
 const DesktopNav = (props) => {
     return (
-        <>
-        <div>
-            <Logo />
-        </div>
-        <nav>
-            <NavigationItems />
-        </nav>
-        </>
+        <header className={ classes.Toolbar } >
+            <div className={classes.Logo}>
+                <Logo />
+            </div>
+            <nav>
+                <NavigationItems />
+            </nav>
+        </header>
     )
 };
 

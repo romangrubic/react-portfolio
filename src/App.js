@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { Switch, Route} from 'react-router-dom';
 
 // Routes
 import Landing from './containers/Personal/Landing/Landing';
@@ -10,7 +10,7 @@ import Layout from './containers/Layout/Layout';
 const App = () => {
     const ROUTES = (
         <Switch>
-            <Route path="/" exact component={ Landing } />
+            <Route path="/" component={ Landing } />
         </Switch>
     )
     return (
