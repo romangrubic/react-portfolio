@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import emailjs from 'emailjs-com';
-// import classes from './Contact.module.css';
+import classes from './Contact.module.css';
 
 class ContactForm extends Component {
     state = {
@@ -22,8 +22,8 @@ class ContactForm extends Component {
             templateParams,
             'user_wwo3XzSnMgSAR5hgP5jJv'
         )
-        console.log(templateParams)
         this.resetForm()
+        alert("Your inquiry has been successfully sent! We'll be in touch shortly!")
     }
     resetForm() {
         this.setState({
@@ -35,43 +35,56 @@ class ContactForm extends Component {
     handleChange = (param, e) => {
         this.setState({ [param]: e.target.value })
     }
+
     render() {
         return (
             <>
-                    <h1 className="p-heading1">Get in Touch</h1>
-                    <form onSubmit={ this.handleSubmit.bind(this) }>
-                            <label>Name</label>
-                            <input
-                                type="text"
-                                name="name"
-                                required
-                                value={ this.state.name }
-                                onChange={ this.handleChange.bind(this, 'name') }
-                                placeholder="Name"
-                            />
-                            <label>Email address</label>
-                            <input
-                                type="email"
-                                name="email"
-                                required
-                                value={ this.state.email }
-                                onChange={ this.handleChange.bind(this, 'email') }
-                                placeholder="Email"
-                            />
-                            <label>Message</label>
-                            <textarea
-                                type="textarea"
-                                name="message"
-                                required
-                                rows={4}
-                                value={ this.state.message }
-                                onChange={ this.handleChange.bind(this, 'message') }
-                                placeholder="Message"
-                            />
-                        <button type="submit">
-                            Submit
+                <div className={ classes.bg }></div>
+                <h1 className={ classes.Header }>Get in Touch</h1>
+                <p className={ classes.Paragraph }>Or look me up on LinkedIn and Github</p>
+                <form
+                    className={ classes.Form }
+                    onSubmit={ this.handleSubmit.bind(this) }>
+                    <div>
+                        <input
+                            type="text"
+                            name="name"
+                            className={ classes.Input }
+                            required
+                            value={ this.state.name }
+                            onChange={ this.handleChange.bind(this, 'name') }
+                            placeholder="Name"
+                        />
+                    </div>
+                    <div>
+                        <input
+                            type="email"
+                            name="email"
+                            className={ classes.Input }
+                            required
+                            value={ this.state.email }
+                            onChange={ this.handleChange.bind(this, 'email') }
+                            placeholder="Email"
+                        />
+                    </div>
+                    <div>
+                        <textarea
+                            type="textarea"
+                            name="message"
+                            className={ classes.Input }
+                            required
+                            rows={ 7 }
+                            value={ this.state.message }
+                            onChange={ this.handleChange.bind(this, 'message') }
+                            placeholder="Message"
+                        />
+                    </div>
+                    <div className={ classes.Center }>
+                        <button className={ classes.SubmitButton } type="submit">
+                            Send!
             </button>
-                    </form>
+                    </div>
+                </form>
             </>
         )
     }

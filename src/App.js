@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route} from 'react-router-dom';
-
+// import 'bootstrap/dist/css/bootstrap.min.css';
 // Routes
 import Landing from './containers/Personal/Landing/Landing';
 import About from './containers/Personal/About/About';
