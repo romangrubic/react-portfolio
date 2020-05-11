@@ -156,6 +156,9 @@ body{
         top: 15vh;
         left: 0;
     }
+    .context h1{
+        margin-left: 0px;
+    }
     .area {
         height: 90.2vh;
     }
