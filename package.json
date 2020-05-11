@@ -19,7 +19,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1"
   },
-  "homepage": "https://romangrubic.github.io/react-portfolio",
+  "homepage": "https://romangrubic.github.io/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
