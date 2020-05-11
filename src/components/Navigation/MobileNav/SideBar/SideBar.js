@@ -18,7 +18,9 @@ const SideBar = (props) => {
                 show={ props.open }
                 clicked={ props.closed } />
             <div className={ attachClasses.join(" ") }>
+                <a href="/">
                 <Logo />
+                </a>
                 <div className={ classes.Name }>
                     <h1>Roman Grubic</h1>
                     <h2>Full-stack developer</h2>

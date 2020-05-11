@@ -5,7 +5,7 @@ import classes from './NavItem.module.css';
 const NavItem = (props) => {
     return (
         <li className={classes.NavItem}>
-            <NavLink
+            <NavLink className={classes.customunderline}
             to={props.link}>{props.children}</NavLink>
         </li>
     )

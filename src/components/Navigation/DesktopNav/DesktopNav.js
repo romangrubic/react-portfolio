@@ -9,7 +9,9 @@ const DesktopNav = (props) => {
     return (
         <header className={ classes.Toolbar } >
             <div className={ classes.Logo }>
+                <a href="/">
                 <Logo />
+                </a>
             </div>
             <div className={classes.Name}>
                 <h1>Roman Grubic</h1>
