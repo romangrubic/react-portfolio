@@ -5,3 +5,13 @@ h1 {
     color: white;
     font-weight: 600;
 }
+.Logo img{
+    width: 100%;
+    max-width: 400px;
+    transition: 0.7s;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.Logo img:hover{
+    transform: scale(1.2, 1.2);
+}

@@ -1,10 +1,9 @@
 import React from 'react';
 import classes from './Portfolio.module.css';
 import Projects from './Projects/Projects';
-import StarTrekImg from '../../../components/UI/ProjectImages/StarTrek';
-
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import StarTrekImg from '../../../components/UI/ProjectImages/StarTrek';
 import SnoopImg from '../../../components/UI/ProjectImages/Adverts';
 import WeatherImg from '../../../components/UI/ProjectImages/Weather';
 import BurgerImg from '../../../components/UI/ProjectImages/Burger';
