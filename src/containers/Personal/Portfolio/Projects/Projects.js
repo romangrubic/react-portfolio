@@ -1,20 +1,16 @@
 import React from 'react';
-// import { NavLink } from 'react-router-dom';
 import Col from 'react-bootstrap/Col';
-import Card from 'react-bootstrap/Card'
+import classes from './Projects.module.css'
 
 const Projects = (props) => {
     return (
-        <Col xs={ 12 } sm={ 6 }>
-            <Card style={ { width: '25rem', margin: '20px' } }>
-            <a href={ props.link }>
-                {props.img}
+            <Col xs={ 12 } sm={6} className={classes.Project}>
+                <a href={ props.link }>
+                    { props.img }
                 </a>
-                <Card.Body>
-                    <Card.Title>{props.projectName}</Card.Title>
-                </Card.Body>
-            </Card>
+                <h1>{props.projectName}</h1>
             </Col>
+
     )
 };
 

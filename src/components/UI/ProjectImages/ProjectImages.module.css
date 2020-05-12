@@ -1,8 +1,10 @@
 .Logo {
-    width: 25rem;
+    width: 100%;
+    max-width: 400px;
     transition: 0.7s;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 .Logo:hover{
-    transform: scale(1.25, 1.25);
-    transition: 0.7s;
+    transform: scale(1.2, 1.2);
 }
