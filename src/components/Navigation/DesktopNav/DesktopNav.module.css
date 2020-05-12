@@ -22,10 +22,15 @@
 .Name {
     color: white;
 }
-.Name h2, h1 {
+.Name h4, h1 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 0px;
+}
+.Name h1{
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 600;
 }
 @media (max-width: 800px) {
     .Toolbar {

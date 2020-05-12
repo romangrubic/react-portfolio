@@ -17,6 +17,7 @@
 }
 .Name h1{
     font-size: 35px;
+    font-weight: 600;
 }
 .Name h2, h1 {
     text-align: center;

@@ -17,9 +17,10 @@
 .Form {
     border-radius: 5px;
     border: 2px solid rgb(42, 119, 170);
-    width: 300px;
+    max-width: 50%;
+    min-width: 350px;
     margin: auto;
-    padding: 25px 50px;
+    padding: 25px;
     background-color: rgb(248, 248, 248);
 }
 .Input {
@@ -35,7 +36,7 @@
     border-radius: 5px;
     border: 1px transparent;
     padding: 10px 5px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     width: 150px;
     letter-spacing: 2px;
     font-size: 20px;
