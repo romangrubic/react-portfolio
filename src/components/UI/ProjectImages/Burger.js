@@ -1,5 +1,5 @@
 import React from 'react';
-import Burger from '../../../assets/images/projects/Burger.jpg';
+import Burger from '../../../assets/images/projects/responsive-burger.png';
 import classes from './ProjectImages.module.css';
 // import NavItem from '../../Navigation/NavigationItems/NavItem/NavItem';
 // import classes from './Logo.module.css';

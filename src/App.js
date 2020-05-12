@@ -14,6 +14,7 @@ import StarTrekProject from './containers/Personal/Portfolio/Projects/StarTrek';
 import SnoopProject from './containers/Personal/Portfolio/Projects/Snoop';
 import WeatherProject from './containers/Personal/Portfolio/Projects/Weather';
 import AnimalsProject from './containers/Personal/Portfolio/Projects/Animals';
+import BurgerProject from './containers/Personal/Portfolio/Projects/Burger';
 
 const App = () => {
     const ROUTES = (
@@ -22,6 +23,7 @@ const App = () => {
             <Route path="/portfolio/Snoop" component={ SnoopProject } />
             <Route path="/portfolio/Weather-360" component={ WeatherProject } />
             <Route path="/portfolio/Animals" component={ AnimalsProject } />
+            <Route path="/portfolio/Burger-shack" component={ BurgerProject } />
             <Route path="/portfolio" component={ Portfolio } />
             <Route path="/experience" component={ Experience } />
             <Route path="/about" component={ About } />
