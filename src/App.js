@@ -11,11 +11,13 @@ import './App.module.css';
 
 import Layout from './containers/Layout/Layout';
 import StarTrekProject from './containers/Personal/Portfolio/Projects/StarTrek';
+import SnoopProject from './containers/Personal/Portfolio/Projects/Snoop';
 
 const App = () => {
     const ROUTES = (
         <Switch>
             <Route path="/portfolio/Star-Trek-Project" component={ StarTrekProject } />
+            <Route path="/portfolio/Snoop" component={ SnoopProject } />
             <Route path="/portfolio" component={ Portfolio } />
             <Route path="/experience" component={ Experience } />
             <Route path="/about" component={ About } />

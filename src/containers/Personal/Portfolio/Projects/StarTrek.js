@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './StarTrek.module.css';
+import classes from './ProjectPage.module.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import StarTrekImg from '../../../../components/UI/ProjectImages/StarTrek';
