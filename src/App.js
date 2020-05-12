@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route} from 'react-router-dom';
+import { Switch, Route, Redirect} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // Routes
 import Landing from './containers/Personal/Landing/Landing';
@@ -10,25 +10,26 @@ import Portfolio from './containers/Personal/Portfolio/Portfolio';
 import './App.module.css';
 
 import Layout from './containers/Layout/Layout';
-import StarTrekProject from './containers/Personal/Portfolio/Projects/StarTrek';
-import SnoopProject from './containers/Personal/Portfolio/Projects/Snoop';
-import WeatherProject from './containers/Personal/Portfolio/Projects/Weather';
-import AnimalsProject from './containers/Personal/Portfolio/Projects/Animals';
-import BurgerProject from './containers/Personal/Portfolio/Projects/Burger';
+import StarTrek from './containers/Personal/Portfolio/Projects/StarTrek';
+import Snoop from './containers/Personal/Portfolio/Projects/Snoop';
+import Weather from './containers/Personal/Portfolio/Projects/Weather';
+import Animals from './containers/Personal/Portfolio/Projects/Animals';
+import Burger from './containers/Personal/Portfolio/Projects/Burger';
 
 const App = () => {
     const ROUTES = (
         <Switch>
-            <Route path="/portfolio/Star-Trek-Project" component={ StarTrekProject } />
-            <Route path="/portfolio/Snoop" component={ SnoopProject } />
-            <Route path="/portfolio/Weather-360" component={ WeatherProject } />
-            <Route path="/portfolio/Animals" component={ AnimalsProject } />
-            <Route path="/portfolio/Burger-shack" component={ BurgerProject } />
+            <Route path="/portfolio/StarTrek" component={ StarTrek } />
+            <Route path="/portfolio/Snoop" component={ Snoop } />
+            <Route path="/portfolio/Weather360" component={ Weather } />
+            <Route path="/portfolio/Animals" component={ Animals } />
+            <Route path="/portfolio/Burgershack" component={ Burger } />
             <Route path="/portfolio" component={ Portfolio } />
             <Route path="/experience" component={ Experience } />
             <Route path="/about" component={ About } />
             <Route path="/contact" component={ Contact } />
             <Route path="/" component={ Landing } />
+            <Redirect to="/" />
         </Switch>
     )
     return (
