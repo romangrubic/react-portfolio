@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Landing from './containers/Personal/Landing/Landing';
 import About from './containers/Personal/About/About';
 import Contact from './containers/Personal/Contact/Contact';
-import Experience from './containers/Personal/Experience/Experience';
 import Portfolio from './containers/Personal/Portfolio/Portfolio';
 import './App.module.css';
 
@@ -25,7 +24,6 @@ const App = () => {
             <Route path="/portfolio/Animals" component={ Animals } />
             <Route path="/portfolio/Burgershack" component={ Burger } />
             <Route path="/portfolio" component={ Portfolio } />
-            <Route path="/experience" component={ Experience } />
             <Route path="/about" component={ About } />
             <Route path="/contact" component={ Contact } />
             <Route path="/" component={ Landing } />

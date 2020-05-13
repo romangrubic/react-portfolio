@@ -20,6 +20,9 @@ const BurgerProject = props => {
                 <a href="https://romangrubic.github.io/burger-shop/" target="_blank"
                     rel="noopener noreferrer">
                     <Button variant="danger">Live website</Button></a>
+                <a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/" target="_blank"
+                    rel="noopener noreferrer">
+                    <Button variant="dark">Course</Button></a>
             </Row>
             <div className={ classes.TextCenter }>
                 <h2 className={ classes.ProjectName }>Burger shack</h2>

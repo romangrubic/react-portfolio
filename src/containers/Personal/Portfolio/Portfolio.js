@@ -16,11 +16,11 @@ const Portfolio = props => {
         <Container>
             <div className={ classes.bg }></div>
             <Row className={ classes.ProjectRow }>
-                <Projects link="/portfolio/StarTrek" projectName="Star Trek" img={ <StarTrekImg /> } />
-                <Projects link="/portfolio/Snoop" projectName="Snoop" img={ <SnoopImg /> } />
-                <Projects link="/portfolio/Weather360" projectName="Weather 360°" img={ <WeatherImg /> } />
-                <Projects link="/portfolio/Burgershack" projectName="Burger Shack" img={ <BurgerImg /> } />
-                <Projects link="/portfolio/Animals" projectName="Animals" img={ <AnimalsImg /> } />
+                <Projects link="/portfolio/StarTrek" projectName="E-commerce web-site with social platform" img={ <StarTrekImg /> } />
+                <Projects link="/portfolio/Snoop" projectName="Buy/sell web-site with advertisement space" img={ <SnoopImg /> } />
+                <Projects link="/portfolio/Weather360" projectName="Weather forecast web-site" img={ <WeatherImg /> } />
+                <Projects link="/portfolio/Burgershack" projectName="Food ordering web-site" img={ <BurgerImg /> } />
+                <Projects link="/portfolio/Animals" projectName="Memory game" img={ <AnimalsImg /> } />
             </Row>
         </Container>
     )
