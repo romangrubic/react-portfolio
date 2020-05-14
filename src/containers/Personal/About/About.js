@@ -1,10 +1,18 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import classes from './About.module.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 const About = props => {
+    useEffect(() => {
+            fetch('https://react-hook-99ae7.firebaseio.com/visit.json', {
+                method: 'POST',
+                body: JSON.stringify(new Date().toLocaleString() + " About me    0"),
+                headers: { 'Content-Type': 'application/json' }
+            })
+    }, [])
+
     return (
         <Container className={ classes.Container }>
             <Row>

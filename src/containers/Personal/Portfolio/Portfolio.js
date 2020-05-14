@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 // import { Route } from 'react-router-dom';
 import classes from './Portfolio.module.css';
 import Projects from './Projects/Projects';
@@ -12,6 +12,14 @@ import AnimalsImg from '../../../components/UI/ProjectImages/Animals';
 // import StarTrekProject from './Projects/StarTrek';
 
 const Portfolio = props => {
+    useEffect(() => {
+            fetch('https://react-hook-99ae7.firebaseio.com/visit.json', {
+                method: 'POST',
+                body: JSON.stringify(new Date().toLocaleString() + " Portfolio    0"),
+                headers: { 'Content-Type': 'application/json' }
+            })
+    }, [])
+
     return (
         <Container>
             <div className={ classes.bg }></div>

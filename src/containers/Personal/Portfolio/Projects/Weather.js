@@ -1,11 +1,19 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import classes from './ProjectPage.module.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import WeatherImg from '../../../../components/UI/ProjectImages/Weather';
 import Button from 'react-bootstrap/Button'
 
+
 const WeatherProject = props => {
+    useEffect(() => {
+            fetch('https://react-hook-99ae7.firebaseio.com/visit.json', {
+                method: 'POST',
+                body: JSON.stringify(new Date().toLocaleString() + " Weather 360 project      0"),
+                headers: { 'Content-Type': 'application/json' }
+            })
+    }, [])
     return (
         <Container>
             <Row>

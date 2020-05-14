@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import classes from './ProjectPage.module.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -6,6 +6,13 @@ import StarTrekImg from '../../../../components/UI/ProjectImages/StarTrek';
 import Button from 'react-bootstrap/Button'
 
 const StarTrekProject = props => {
+    useEffect(() => {
+            fetch('https://react-hook-99ae7.firebaseio.com/visit.json', {
+                method: 'POST',
+                body: JSON.stringify(new Date().toLocaleString() + " Star Trek project      0"),
+                headers: { 'Content-Type': 'application/json' }
+            })
+    }, [])
     return (
         <Container>
             <Row>
