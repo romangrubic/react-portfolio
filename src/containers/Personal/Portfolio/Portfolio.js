@@ -24,7 +24,7 @@ const Portfolio = props => {
         <Container>
             <div className={ classes.bg }></div>
             <Row className={ classes.ProjectRow }>
-                <Projects link="/portfolio/StarTrek" projectName="E-commerce web-site with social platform" img={ <StarTrekImg /> } />
+                <Projects link="/portfolio/StarTrek" projectName="E-commerce web-site with discussion board and private messaging" img={ <StarTrekImg /> } />
                 <Projects link="/portfolio/Snoop" projectName="Buy/sell web-site with advertisement space" img={ <SnoopImg /> } />
                 <Projects link="/portfolio/Weather360" projectName="Weather forecast web-site" img={ <WeatherImg /> } />
                 <Projects link="/portfolio/Burgershack" projectName="Food ordering web-site" img={ <BurgerImg /> } />

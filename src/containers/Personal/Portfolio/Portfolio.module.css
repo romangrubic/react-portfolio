@@ -14,12 +14,3 @@
   top:0;
   z-index:-1;
 }
-
-@keyframes slide {
-  0% {
-    transform:translateX(-25%);
-  }
-  100% {
-    transform:translateX(25%);
-  }
-}

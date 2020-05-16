@@ -35,9 +35,14 @@ const About = props => {
                         <a href="https://codeinstitute.net/" target="_blank" rel="noopener noreferrer" className={ classes.BlackFont }>Code Institute</a>
                     </h3>
                     <p><b>Diploma in Software Development</b> <br></br>
-                        Fully credit rated by Edinburgh Napier University - Level 5 EQF<br></br>
-                        April 2020
+                        <b>Second class Honours</b> - April 2020 <br></br>
+                        Credit rated by <b>Edinburgh Napier University</b> <br></br>
+                        Level 5 RQF - Higher National Diploma<br></br>
+                        Level 6 NFQ - Higher Certificate <br></br>
+                        Associate Degree (USA) <br></br>
+                        
             </p>
+                    <p>Waiting for Diploma to be sent</p>
                     {/* <a target="_blank" rel="noopener noreferrer">View Diploma</a> */}
                 </Col>
                 <Col sm={ 12 } lg={ 6 } className={ classes.Diploma }>
