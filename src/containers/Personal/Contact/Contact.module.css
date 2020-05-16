@@ -1,11 +1,11 @@
 .Header {
     padding: 75px 0px 0px;
     font-size: 35px;
-    color: white;
+    color: black;
 }
 .Paragraph {
     margin: 20px auto 30px;
-    color: white;
+    color: black;
     font-size: 20px;
     text-align: center;
     font-weight: 600;
@@ -17,7 +17,7 @@
 .Form {
     border-radius: 5px;
     border: 2px solid rgb(42, 119, 170);
-    max-width: 50%;
+    max-width: 70%;
     min-width: 350px;
     margin: auto;
     padding: 25px 25px 5px;
@@ -58,8 +58,7 @@ body {
 }
 
 .bg {
-  background-image: linear-gradient(45deg, rgb(223, 208, 2) 20%, rgb(255, 153, 0) 50%, rgb(61, 124, 1) 50%);
-  animation:slide 7s ease-in-out infinite alternate;
+   background: rgb(235, 235, 235);
   bottom:0;
   left:-50%;
   opacity:1;
@@ -67,13 +66,4 @@ body {
   right:-50%;
   top:0;
   z-index:-1;
-}
-
-@keyframes slide {
-  0% {
-    transform:translateX(-25%);
-  }
-  100% {
-    transform:translateX(25%);
-  }
 }

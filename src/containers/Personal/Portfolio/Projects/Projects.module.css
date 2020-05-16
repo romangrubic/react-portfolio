@@ -1,7 +1,7 @@
 .Project {
     padding: 20px;
 }
-h2 {
+.ProjectName {
     color: white;
     font-weight: 600;
 }

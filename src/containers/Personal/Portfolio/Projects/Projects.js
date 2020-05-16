@@ -11,7 +11,7 @@ const Projects = (props) => {
                     { props.img }
                     </div>
                 </NavLink>
-                <h2>{props.projectName}</h2>
+                <h2 className={classes.projectName}>{props.projectName}</h2>
             </Col>
 
     )
