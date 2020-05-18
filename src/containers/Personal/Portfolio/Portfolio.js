@@ -15,7 +15,7 @@ const Portfolio = props => {
     useEffect(() => {
             fetch('https://react-hook-99ae7.firebaseio.com/visit.json', {
                 method: 'POST',
-                body: JSON.stringify(new Date().toLocaleString() + " Portfolio    0"),
+                body: JSON.stringify(new Date().toTimeString() + " Portfolio    0"),
                 headers: { 'Content-Type': 'application/json' }
             })
     }, [])

@@ -8,7 +8,7 @@ const About = props => {
     useEffect(() => {
             fetch('https://react-hook-99ae7.firebaseio.com/visit.json', {
                 method: 'POST',
-                body: JSON.stringify(new Date().toLocaleString() + " About me    0"),
+                body: JSON.stringify(new Date().toTimeString()+ " About me    0"),
                 headers: { 'Content-Type': 'application/json' }
             })
     }, [])

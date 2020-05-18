@@ -10,7 +10,7 @@ const WeatherProject = props => {
     useEffect(() => {
             fetch('https://react-hook-99ae7.firebaseio.com/visit.json', {
                 method: 'POST',
-                body: JSON.stringify(new Date().toLocaleString() + " Weather 360 project      0"),
+                body: JSON.stringify(new Date().toTimeString() + " Weather 360 project      0"),
                 headers: { 'Content-Type': 'application/json' }
             })
     }, [])
