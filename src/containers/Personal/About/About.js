@@ -22,7 +22,7 @@ const About = props => {
                     problem-solving skills and customer service. I have accomplished a lot in these past few
                     months and managed to learn new technologies and have projects to present. Now, I am looking
                     for new challenges to further develop my skills and obtain new one.<br></br><br></br>
-                    My projects are available in Portfolio section and on my GitHub including documentation.
+                    My projects are available in Portfolio section and on my GitHub profile including documentation.
     </p>
             </Row>
             <hr></hr>
@@ -35,15 +35,15 @@ const About = props => {
                         <a href="https://codeinstitute.net/" target="_blank" rel="noopener noreferrer" className={ classes.BlackFont }>Code Institute</a>
                     </h3>
                     <p><b>Diploma in Software Development</b> <br></br>
-                        <b>Second class Honours</b> - April 2020 <br></br>
+                        <b>Merit grade</b> - April 2020 <br></br>
                         Credit rated by <b>Edinburgh Napier University</b> <br></br>
                         Level 5 RQF - Higher National Diploma<br></br>
                         Level 6 NFQ - Higher Certificate <br></br>
                         Associate Degree (USA) <br></br>
                         
             </p>
-                    <p>Waiting for Diploma to be sent</p>
-                    {/* <a target="_blank" rel="noopener noreferrer">View Diploma</a> */}
+                    <a href="https://www.credential.net/a9914dbf-40ba-4895-b3e3-c5b5b6e15c8d" 
+                    target="_blank" rel="noopener noreferrer">View Diploma</a>
                 </Col>
                 <Col sm={ 12 } lg={ 6 } className={ classes.Diploma }>
                     <h3>
