@@ -104,6 +104,8 @@ const About = props => {
                             </ul>
                             <li>Additional</li>
                             <ul className={classes.ThirdList}>
+                                <li>Bootstrap</li>
+                                <li>Materialize</li>
                                 <li>Amazon Web Services</li>
                                 <li>Stripe</li>
                                 <li>EmailJS</li>

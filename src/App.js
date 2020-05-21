@@ -10,6 +10,7 @@ import './App.module.css';
 
 import Layout from './containers/Layout/Layout';
 import StarTrek from './containers/Personal/Portfolio/Projects/StarTrek';
+import KingdomProperties from './containers/Personal/Portfolio/Projects/KingdomProperties';
 import Snoop from './containers/Personal/Portfolio/Projects/Snoop';
 import Weather from './containers/Personal/Portfolio/Projects/Weather';
 import Animals from './containers/Personal/Portfolio/Projects/Animals';
@@ -53,6 +54,7 @@ const App = () => {
     const ROUTES = (
         <Switch>
             <Route path="/portfolio/StarTrek" component={ StarTrek } />
+            <Route path="/portfolio/KingdomProperties" component={ KingdomProperties } />
             <Route path="/portfolio/Snoop" component={ Snoop } />
             <Route path="/portfolio/Weather360" component={ Weather } />
             <Route path="/portfolio/Animals" component={ Animals } />

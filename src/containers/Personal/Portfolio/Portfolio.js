@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import StarTrekImg from '../../../components/UI/ProjectImages/StarTrek';
 import SnoopImg from '../../../components/UI/ProjectImages/Adverts';
+import KingdomImg from '../../../components/UI/ProjectImages/KingdomProperties';
 import WeatherImg from '../../../components/UI/ProjectImages/Weather';
 import BurgerImg from '../../../components/UI/ProjectImages/Burger';
 import AnimalsImg from '../../../components/UI/ProjectImages/Animals';
@@ -25,6 +26,7 @@ const Portfolio = props => {
             <div className={ classes.bg }></div>
             <Row className={ classes.ProjectRow }>
                 <Projects link="/portfolio/StarTrek" projectName="E-commerce web-site with discussion board and private messaging" img={ <StarTrekImg /> } />
+                <Projects link="/portfolio/KingdomProperties" projectName="Property agency web-site with admin panel" img={ <KingdomImg /> } />
                 <Projects link="/portfolio/Snoop" projectName="Buy/sell web-site with advertisement space" img={ <SnoopImg /> } />
                 <Projects link="/portfolio/Weather360" projectName="Weather forecast web-site" img={ <WeatherImg /> } />
                 <Projects link="/portfolio/Burgershack" projectName="Food ordering web-site" img={ <BurgerImg /> } />

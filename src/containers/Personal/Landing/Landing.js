@@ -8,7 +8,7 @@ const Landing = props => {
                 {/* <h1>Let's bring your idea(s) to life!</h1>
                 <br></br>
                 <h2>Web developer who can solve your problem <br></br>or help with an existing project</h2> */}
-                <h1>Hello there!<br></br> It's a pleasure to meet you.</h1>
+                <h1>Hello!<br></br> It's a pleasure to meet you.</h1>
                 <br></br>
                 <h2>The purpose of this site is to serve as extension to my 
                     resume, provide information to potential employers while demonstrating
