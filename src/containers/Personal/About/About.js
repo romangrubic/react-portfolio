@@ -22,7 +22,9 @@ const About = props => {
                     problem-solving skills and customer service. I have accomplished a lot in these past few
                     months and managed to learn new technologies and have projects to present. Now, I am looking
                     for new challenges to further develop my skills and obtain new one.<br></br><br></br>
-                    My projects are available in Portfolio section and on my GitHub profile including documentation.
+                    My projects are available in Portfolio section and on my GitHub profile including documentation.<br></br><br></br>
+                    Creator of <a href="https://django-api-romangrubic.herokuapp.com/" target="_blank"
+    rel="noopener noreferrer">Q&A API</a> - Looking for collaborators to increase quality and service!
     </p>
             </Row>
             <hr></hr>
@@ -76,26 +78,30 @@ const About = props => {
                             <ul className={classes.ThirdList}>
                                 <li>Flask</li>
                                 <li>Django</li>
+                                <li>Django REST framework (REST Api)</li>
                             </ul>
                         </ul>
                     <li>Databases:</li>
                         <ul className={classes.SecondList}>
-                            <li>SQL</li>
-                            <li>MongoDB</li>
-                            <li>PostgreSQL</li>
-                            <li>Firebase</li>
+                            <li>SQL</li> 
+                                <ul className={classes.ThirdList}>
+                                    <li>PostgreSQL</li>
+                                </ul>
+                            <li>NoSQL</li>
+                                <ul className={classes.ThirdList}>
+                                    <li>MongoDB, Firebase</li>
+                                </ul>
                         </ul>
                     <li>Tools:</li>
                         <ul className={classes.SecondList}>
                             <li>Git - version control</li>
                             <ul className={classes.ThirdList}>
                                 <li>GitHub</li>
-                                <li>GitPod</li>
+                                <li>GitPod, VS Code</li>
                             </ul>
                             <li>Hosting</li>
                             <ul className={classes.ThirdList}>
-                                <li>GitHub Pages</li>
-                                <li>Heroku</li>
+                                <li>GitHub Pages, Heroku</li>
                             </ul>
                             <li>Testing</li>
                             <ul className={classes.ThirdList}>
@@ -104,8 +110,7 @@ const About = props => {
                             </ul>
                             <li>Additional</li>
                             <ul className={classes.ThirdList}>
-                                <li>Bootstrap</li>
-                                <li>Materialize</li>
+                                <li>Bootstrap, Materialize</li>
                                 <li>Amazon Web Services</li>
                                 <li>Stripe</li>
                                 <li>EmailJS</li>
