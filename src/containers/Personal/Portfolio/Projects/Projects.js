@@ -5,7 +5,7 @@ import classes from './Projects.module.css'
 
 const Projects = (props) => {
     return (
-            <Col xs={ 12 } sm={6} className={classes.Project}>
+            <Col xs={ 12 } lg={6} className={classes.Project}>
                 <NavLink to={ props.link } data-toggle="tooltip" title="Click to view more info!">
                     <div className={classes.Logo}>
                     { props.img }
