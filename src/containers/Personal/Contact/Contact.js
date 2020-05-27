@@ -48,7 +48,11 @@ class ContactForm extends Component {
             <>
                 <div className={ classes.bg }></div>
                 <h1 className={ classes.Header }>Get in Touch</h1>
-                <p className={ classes.Paragraph }>Or look me up on LinkedIn and Github</p>
+                <p className={ classes.Paragraph }>Or look me up on <a href="https://www.linkedin.com/in/roman-grubic-b835ab67/"
+    target="_blank"
+    rel="noopener noreferrer">LinkedIn</a> and <a href="https://github.com/romangrubic"
+    target="_blank"
+    rel="noopener noreferrer">Github</a></p>
                 <form
                     className={ classes.Form }
                     onSubmit={ this.handleSubmit.bind(this) }>
@@ -80,12 +84,13 @@ class ContactForm extends Component {
                             name="message"
                             className={ classes.Input }
                             required
-                            rows={ 7 }
+                            rows={ 5 }
                             value={ this.state.message }
                             onChange={ this.handleChange.bind(this, 'message') }
                             placeholder="Message"
                         />
                     </div>
+                    <h6>* Yes, this form is working and tested regularly.</h6>
                     <div className={ classes.Center }>
                         <button className={ classes.SubmitButton } type="submit">
                             Send!

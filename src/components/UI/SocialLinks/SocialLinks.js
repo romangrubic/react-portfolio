@@ -20,7 +20,7 @@ const GitHub = <a href="https://github.com/romangrubic"
         size="3x"
         className={ classes.SocialLink } /></a>
 
-const CV = <a href="https://raw.githubusercontent.com/romangrubic/react-portfolio/master/src/assets/CV/RomanGrubic.pdf"
+const CV = <a href="https://raw.githubusercontent.com/romangrubic/react-portfolio/master/src/assets/CV/RomanGrubic.docx"
     target="_blank"
     rel="noopener noreferrer"><FontAwesomeIcon
         icon={ faDownload }
