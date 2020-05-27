@@ -22,10 +22,10 @@ const BurgerProject = props => {
             </Row>
             <Row className={ classes.Center }>
                 <a href="https://github.com/romangrubic/burger-shop" target="_blank"
-                    rel="noopener noreferrer">
+                    rel="noopener noreferrer" data-toggle="tooltip" title="Opens GitHub repository!">
                     <Button variant="info">Source code</Button></a>
                 <a href="https://romangrubic.github.io/burger-shop/" target="_blank"
-                    rel="noopener noreferrer">
+                    rel="noopener noreferrer" data-toggle="tooltip" title="Hosted on GitHub pages!">
                     <Button variant="danger">Live website</Button></a>
                 <a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/" target="_blank"
                     rel="noopener noreferrer">

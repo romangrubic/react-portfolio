@@ -22,10 +22,10 @@ const SnoopProject = props => {
             </Row>
             <Row className={ classes.Center }>
                 <a href="https://github.com/romangrubic/Snoop-Adverts-Flask" target="_blank"
-                    rel="noopener noreferrer">
+                    rel="noopener noreferrer" data-toggle="tooltip" title="Opens Github repository!">
                     <Button variant="info">Source code</Button></a>
                 <a href="https://adverts-project.herokuapp.com/home" target="_blank"
-                    rel="noopener noreferrer">
+                    rel="noopener noreferrer" data-toggle="tooltip" title="Hosted on Heroku!">
                     <Button variant="danger">Live website</Button></a>
             </Row>
             <div className={ classes.TextCenter }>

@@ -23,10 +23,10 @@ const WeatherProject = props => {
             </Row>
             <Row className={ classes.Center }>
                 <a href="https://github.com/romangrubic/weather-app-openweather" target="_blank"
-                    rel="noopener noreferrer">
+                    rel="noopener noreferrer" data-toggle="tooltip" title="Opens GitHub repository!">
                     <Button variant="info">Source code</Button></a>
                 <a href="https://romangrubic.github.io/weather-app-openweather/" target="_blank"
-                    rel="noopener noreferrer">
+                    rel="noopener noreferrer" data-toggle="tooltip" title="Hosted on GitHub pages!">
                     <Button variant="danger">Live website</Button></a>
             </Row>
             <div className={ classes.TextCenter }>
