@@ -114,6 +114,14 @@ enjoy working with Django and React and i'm open to new technologies.<br></br><b
                 </ul>
             </Row>
             <hr></hr>
+            <Row>
+                <h1>Hobbies and Interests</h1>
+                <p className={ classes.AboutInfo }>
+                Member of Scout community for long time. I enjoy hiking, camping and exploring.
+                 I'm also a big fan of everything Star Trek and enjoy playing board games and role-playing games like DnD and Warhammer 40k with friends. Ocassionaly,
+                 I ride my bike to keep in shape.                  
+    </p>
+            </Row>
         </Container>
     )
 };
