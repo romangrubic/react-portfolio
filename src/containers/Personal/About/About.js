@@ -18,13 +18,13 @@ const About = props => {
             <Row>
                 <h1>Summary</h1>
                 <p className={ classes.AboutInfo }>
-                    Coming from security and retail background, I have developed attention to details,
-                    problem-solving skills and customer service. I have accomplished a lot in these past few
-                    months and managed to learn new technologies and have projects to present. Now, I am looking
-                    for new challenges to further develop my skills and obtain new one.<br></br><br></br>
-                    My projects are available in Portfolio section and on my GitHub profile including documentation.<br></br><br></br>
-                    Creator of <a href="https://django-api-romangrubic.herokuapp.com/" target="_blank"
-    rel="noopener noreferrer">Q&A API</a> - Looking for collaborators to increase quality and service!
+                During my bootcamp in Code Institute, I have learned a lot (Javascript, Python, Flask, Django, SQL and NoSQL) and I have several 
+projects available on my GitHub. I had no prior knowledge of anything 
+remotely connected to programming 6 months ago. What I lack in experience, I can substitute with positive attitude and 
+willingness to learn. Imagine what I could do with right direction and training if focused on one thing. I currently 
+enjoy working with Django and React and i'm open to new technologies.<br></br><br></br>
+                    My projects are available in Portfolio section with documentation.
+                    
     </p>
             </Row>
             <hr></hr>
@@ -70,15 +70,11 @@ const About = props => {
                             <li>HTML5 + CSS3</li>
                             <li>Javascript</li>
                             <ul className={classes.ThirdList}>
-                                <li>ECMAScript 2015 (ES6)</li>
-                                <li>React (including Hooks, React Router and Redux)</li>
-                                <li>jQuery</li>
+                                <li>jQuery, React (including Hooks, React Router and Redux)</li>
                             </ul>
                             <li>Python</li>
                             <ul className={classes.ThirdList}>
-                                <li>Flask</li>
-                                <li>Django</li>
-                                <li>Django REST framework (REST Api)</li>
+                                <li>Flask, Django, Django REST framework (REST Api)</li>
                             </ul>
                         </ul>
                     <li>Databases:</li>
@@ -92,28 +88,27 @@ const About = props => {
                                     <li>MongoDB, Firebase</li>
                                 </ul>
                         </ul>
-                    <li>Tools:</li>
+                    <li>Tools and technologies:</li>
                         <ul className={classes.SecondList}>
-                            <li>Git - version control</li>
+                            <li>Version control</li>
                             <ul className={classes.ThirdList}>
-                                <li>GitHub</li>
-                                <li>GitPod, VS Code</li>
+                                <li>Git, Github</li>
                             </ul>
-                            <li>Hosting</li>
+                            <li>Responsive web design</li>
                             <ul className={classes.ThirdList}>
-                                <li>GitHub Pages, Heroku</li>
+                                <li>Bootstrap, CSS3</li>
                             </ul>
-                            <li>Testing</li>
+                            <li>Web hosting</li>
                             <ul className={classes.ThirdList}>
-                                <li>Jasmine</li>
-                                <li>TravisCI</li>
-                            </ul>
-                            <li>Additional</li>
+                                <li>GitHub Pages, Heroku, AWS S3</li>
+                            </ul> 
+                            <li>Online payments</li>
                             <ul className={classes.ThirdList}>
-                                <li>Bootstrap, Materialize</li>
-                                <li>Amazon Web Services</li>
                                 <li>Stripe</li>
-                                <li>EmailJS</li>
+                            </ul>                           
+                            <li>Test development</li>
+                            <ul className={classes.ThirdList}>
+                                <li>Travis CI, Jasmine</li>
                             </ul>
                         </ul>
                 </ul>
